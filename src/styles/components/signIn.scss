@@ -1,0 +1,116 @@
+.workSpace {
+    h1{
+      margin: 0;
+      margin-bottom: 16px;
+    }
+    .labelTitle{
+      font-size: 18px;
+    }
+    text-align:center;
+    .formWrap {
+      text-align: center;
+      margin: 0 auto;
+    }
+    .formControl {
+      display: flex;
+      flex-direction: column;
+      .inputWrap {
+        display: flex;
+        align-items: center;
+      }
+      .inputBoxDomain {
+        font-size: 1.25rem;
+        line-height: normal;
+        padding: 0.75rem;
+        border: 1px solid #868686;
+        border-radius: 0.25rem;
+        appearance: none;
+        outline: 0;
+        color: #1d1c1d;
+        margin: 0 0 0.5rem;
+        font-variant-ligatures: none;
+        transition: box-shadow 70ms ease-out, border-color 70ms ease-out;
+        box-shadow: none;
+        height: auto;
+        text-align: right;
+        display: flex;
+        flex-grow: 1;
+      }
+  
+      span {
+        font-weight: 700;
+        font-size: 1.3rem;
+        flex-shrink: 0;
+        flex-grow: 0;
+      }
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 0.25rem;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+      padding: 2rem 2rem 1rem;
+      margin: 0 auto 2rem;
+      position: relative;
+      border: 1px solid #ddd;
+    }
+    .btn {
+      background: #007a5a;
+      color: #fff;
+      transition: all 75ms ease-in-out;
+      line-height: 1.2rem;
+      font-weight: 900;
+      user-select: none;
+      text-decoration: none;
+      cursor: pointer;
+      text-shadow: none;
+      border: none;
+      border-radius: 0.25rem;
+      box-shadow: none;
+      position: relative;
+      display: inline-block;
+      vertical-align: bottom;
+      text-align: center;
+      white-space: nowrap;
+      margin: 0;
+      margin-top: 18px;
+      &.large {
+        padding: 14px 32px 16px;
+        font-size: 20px;
+      }
+      &.fullWidth {
+        width: 100%;
+      }
+    }
+    .signInBottomTxt{
+      font-size: 18px;
+      .link{
+        color: #1264a3;
+        text-decoration: none;
+        font-weight: 500;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+    &.signIn{
+      .formControl{
+        text-align: left;
+      }
+      .inputBoxDomain {
+        text-align: left;
+      }
+      .signInBottomTxt{
+        font-size: 16px;
+        font-weight: 300;
+      }
+      .rememberMeLink{
+        margin-top: 1rem;
+        font-weight: 500;
+        font-size: 16px;
+        input{
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  
